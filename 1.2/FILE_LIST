@@ -1,0 +1,26 @@
+* Make/options
+Options for wmake
+
+* Make/files
+Files for wmake
+
+* CSR_convert.H
+Conversion from OpenFOAM lduMatrix to classic Compressed Sparse Row matrix.
+	
+* PBiCG_accel.C
+Interface to external solver between OpenFOAM and SpeedIT PBICG allowing for computations on GPU
+
+* PBiCG_accel.H
+Definition of class allowing to connect external BiCGstab solver written with CUDA to OpenFOAM.
+
+* PCG_accel.C
+Interface to external solver between OpenFOAM and SpeedIT PCG allowing for computations on GPU
+
+* PCG_accel.H
+Definition of class allowing to connect external CG solver written with CUDA to OpenFOAM.
+
+* si_classic.h
+Header file for SpeedIT_Classic solvers
+
+* speedit_ex.h
+Header file for SpeedIT_Extreme solvers
