@@ -1,0 +1,5 @@
+PBiCG_accel.C
+PCG_accel.C
+
+
+LIB = $(FOAM_USER_LIBBIN)/libexternalsolv
