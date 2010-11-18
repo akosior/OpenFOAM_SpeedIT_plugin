@@ -1,4 +1,0 @@
-EXE_INC = -I$(LIB_SRC)/finiteVolume/lnInclude -I/usr/local/cuda/include/ -I$(MPI_ARCH_PATH)/include/ -I$(SDK_INSTALL_PATH)/C/common/inc/
-
-EXE_LIBS = -L$(FOAM_USER_LIBBIN)/ -lfiniteVolume -L$(MPI_ARCH_PATH)/lib/ -I$(SDK_INSTALL_PATH)/C/common/lib/
-
